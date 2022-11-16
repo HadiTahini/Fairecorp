@@ -25,13 +25,14 @@ All the apis are working fine but their tests didn't work properly due to an une
 
 The security Controller and it's Configuration are working successffuly.
 
-user cred:
-username: user
-password: user
+# Login
+## user cred:
+- username: user
+- password: user
 
-admin cred:
-usernmae:admin
-password:admin
+## admin cred:
+- usernmae:admin
+- password:admin
 
 It's possible to test the application through clever cloud on this link:
 https://haditahini.cleverapps.io/swagger-ui/index.html
