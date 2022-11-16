@@ -50,7 +50,7 @@ public class HeaterController {
     @PutMapping("/{id}/reverse-heater-status")
     public HeaterDto reverseHeaterStatus(@PathVariable Long id){
         Heater heater = heaterDao.findById(id).orElseThrow();
-        heater.setHeaterStatus(heater.getHeaterStatus() == HeaterStatus.ON ? HeaterStatus.OFF :HeaterStatus.ON);
+        heater.setHeaterStatus(heater.getHeaterStatus() == HeaterStatus.OFF ? HeaterStatus.ON :HeaterStatus.OFF);
         return new HeaterDto(heater);
     }
 

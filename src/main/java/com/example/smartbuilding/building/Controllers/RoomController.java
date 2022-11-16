@@ -61,7 +61,7 @@ public class RoomController {
         Set<Heater> heaters = room.getHeaters();
         List<HeaterDto> result = new ArrayList<>();
         for(Heater heater : heaters){
-        heater.setHeaterStatus(heater.getHeaterStatus() == HeaterStatus.ON ? HeaterStatus.OFF :HeaterStatus.ON);
+        heater.setHeaterStatus(heater.getHeaterStatus() == HeaterStatus.OFF ? HeaterStatus.ON :HeaterStatus.ON);
         result.add(new HeaterDto(heater));
         }
         return result;
