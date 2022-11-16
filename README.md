@@ -32,3 +32,6 @@ password: user
 admin cred:
 usernmae:admin
 password:admin
+
+It's possible to test the application through clever cloud on this link:
+https://haditahini.cleverapps.io/swagger-ui/index.html
