@@ -21,7 +21,7 @@ The time isn't enough to implement a lot of features so I didn't use this api di
 
 All apis are tested via Swagger.
 
-All the apis are working fine but their tests didn't work properly due to an unexpected error. I think they should work fine.
+All the apis are working fine but their tests didn't work properly due to an unexpected error. I think in their logic they should work fine.
 
 The security Controller and it's Configuration are working successffuly.
 
